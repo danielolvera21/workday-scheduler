@@ -25,6 +25,14 @@ THEN the saved events persist
 
 ## Screenshots
 
+### Current Date on Display
+
+![screenshot1](https://user-images.githubusercontent.com/83250389/121816355-5454a380-cc38-11eb-89ba-29015485efdd.png)
+
+### Item Saved on Local Storage
+
+![screenshot2](https://user-images.githubusercontent.com/83250389/121816360-59195780-cc38-11eb-9770-cb3841b01dc7.png)
+
 ## Project Link
 
 (https://danielolvera21.github.io/workday-scheduler/)

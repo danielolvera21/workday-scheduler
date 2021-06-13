@@ -26,8 +26,20 @@ $("#five").val(localStorage.getItem("5PM"));
 
 //function to colorcode tasks depending on the time of day
 var blockColor = function () {
+  var rightNow = moment().format("hA");
+  var time = document.querySelector("#timeSlot");
+  if (time > rightNow) {
+    $(this).removeClass("past");
+    $(this).addClass("future");
+  } else if ((time = rightNow)) {
+    $(this).removeClass("past");
+    $(this).addClass("present");
+  } else {
+  }
+
   //get time from timeblocks
   //convert to moment object
   //apply red color if timeblock if after the current time moment().isAfter()
   //apply green color if timeblock = current time
 };
+blockColor();
